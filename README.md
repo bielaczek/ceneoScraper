@@ -5,7 +5,7 @@
 
 ## Algorytm pobierania opinii o produkcie z serwisu Ceneo.pl
 1. Wysłanie żądania dostępu do strony internetowej z opiniami o produkcie
-2. Jeżeli operacja zakończy się powozeniem, wyodrębnienie w kodu strony opini o produkcie
+2. Jeżeli operacja zakończy się powozeniem, wyodrębnienie z kodu strony opini o produkcie
 3. Dla każdej opinii wyodrębnienie z kodu HTML poszczególnych składowych i przypisanie ich do elementów złożonej struktury danych
 4. Jeśli istnieje kolejna strona z opiniami, przejście do niej i powtórzene dla niej kroków 1-4
 5. Zapisanie wyników do bazy danych
