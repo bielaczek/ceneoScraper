@@ -1,0 +1,7 @@
+python -m venv .venv
+source .venv/Scripts/activate
+pip install requests
+pip install bs4
+pip install pandas
+pip install matplotlib
+pip freeze >requirements.txt
