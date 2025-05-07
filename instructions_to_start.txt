@@ -1,7 +1,9 @@
-python -m venv .venv
-source .venv/Scripts/activate
-pip install requests
+python -m venv .venv                TWORZENIE ŚRODWISKA WIRTUALNEGO
+source .venv/Scripts/activate       AKTYWOWANIEŚRODOWISKA WIRTUALNEGO
+
+pip install requests                INSTALOWANIE POTRZEBNYCH PAKIETÓW
 pip install bs4
 pip install pandas
 pip install matplotlib
-pip freeze >requirements.txt
+
+pip freeze >requirements.txt        ZAPISANIE ZAINSTALOWANYCH PAKIETÓW DO WYMAGAŃ PROJEKTU
